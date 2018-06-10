@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  api.mahar:
+    image: ${DOCKER_REGISTRY}apimahar
+    build:
+      context: .
+      dockerfile: Api.Mahar\Dockerfile
